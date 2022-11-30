@@ -1,0 +1,131 @@
+{
+  "ingredientes": {
+    "sabores": [
+      {
+        "id": 1,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 2,
+        "tipo": "4 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Portuguesa"
+      },
+      {
+        "id": 4,
+        "tipo": "Frango com Catupiry"
+      },
+      {
+        "id": 4,
+        "tipo": "Lombinho"
+      },
+      {
+        "id": 4,
+        "tipo": "Chocolate"
+      }
+    ],
+    "tamanhos": [
+      {
+        "id": 1,
+        "tipo": "Fatia"
+      },
+      {
+        "id": 2,
+        "tipo": "4 pedaços"
+      },
+      {
+        "id": 3,
+        "tipo": "6 pedaços"
+      },
+      {
+        "id": 4,
+        "tipo": "8 pedaços"
+      }
+    ],
+    "bordas": [
+      {
+        "id": 1,
+        "tipo": "Tradicional"
+      },
+      {
+        "id": 2,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 3,
+        "tipo": "Cheedar"
+      },
+      {
+        "id": 4,
+        "tipo": "Presunto e Mussarela"
+      },
+      {
+        "id": 4,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 4,
+        "tipo": "Nutella"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "nome": "Lucas",
+      "sabor": [
+        "4 Queijos"
+      ],
+      "tamanho": "Fatia",
+      "borda": "Tradicional",
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Rodrigo",
+      "sabor": [
+        "Lombinho"
+      ],
+      "tamanho": "8 pedaços",
+      "borda": "Catupiry",
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Jack",
+      "sabor": [
+        "Frango com Catupiry"
+      ],
+      "tamanho": "8 pedaços",
+      "borda": "Bacon",
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "Wallison",
+      "sabor": [
+        "Calabresa",
+        "Chocolate"
+      ],
+      "tamanho": "6 pedaços",
+      "borda": "Cheedar",
+      "status": "Em produção",
+      "id": 5
+    }
+  ]
+}
